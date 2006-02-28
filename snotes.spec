@@ -14,7 +14,7 @@ Source1:	%{name}.desktop
 Source2:	%{name}.png
 BuildRequires:	qmake
 BuildRequires:	qt-devel
-BuildRequires:	sed >= 4.0.0	
+BuildRequires:	sed >= 4.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
