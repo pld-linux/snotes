@@ -2,7 +2,7 @@
 %define		ver	1.1.4-2
 %define		_ver	%(echo %ver | tr - _)
 Summary:	Sticky little notes on desktop
-Summary(pl):	Notatki przyklejane na pulpicie
+Summary(pl.UTF-8):   Notatki przyklejane na pulpicie
 Name:		snotes
 Version:	%{_ver}
 Release:	0.1
@@ -20,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Sticky little notes on desktop.
 
-%description -l pl
+%description -l pl.UTF-8
 Notatki przyklejane na pulpicie.
 
 %prep
